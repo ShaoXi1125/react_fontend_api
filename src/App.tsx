@@ -6,6 +6,7 @@ import { About } from './pages/About';
 import { Settings } from './pages/Settings';
 import { UserDetail } from './pages/UserDetail';
 import  Products  from './pages/Products';
+import AddProduct from './pages/AddProduct';
 
 export default function App(){
   return(
@@ -19,6 +20,7 @@ export default function App(){
           <Route path="/settings" element={ <Settings/> }/>
           <Route path="/user/:id" element={ <UserDetail/> }/>
           <Route path="/products" element={ <Products/> }/>
+          <Route path="/Addproduct" element={ <AddProduct/> }/>
         </Routes>
       </div> 
     </div>
